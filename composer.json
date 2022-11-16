@@ -1,0 +1,19 @@
+{
+    "name": "halo123450/common-cas-php",
+    "description": "登录注册组件",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "codedungeon/phpunit-result-printer": "^0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "CommonCas\\App\\": "common-cas/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CommonCas\\Tests\\": "common-cas/tests/"
+        }
+    }
+}
